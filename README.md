@@ -15,7 +15,7 @@
 © Марк Твен</p>
 
 <p style="text-align: center;">
-  <img src="https://github.com/user-attachments/assets/6d30a403-2dbe-41e1-8bbd-87262a0831d4" alt="image">
+  <img src="https://github.com/user-attachments/assets/6d30a403-2dbe-41e1-8bbd-87262a0831d4" alt="image" style="display: block; margin: 0 auto;">
 </p>
 
 </body>
