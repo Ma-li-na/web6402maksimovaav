@@ -19,16 +19,16 @@
 <h1>Лабораторная работа №2</h1>
 <h2>Многостраничный web-сайт на тему "кошачий приют-гостиница" с использованием технологий HTML и CSS.</h2>
 <p>Главная страница сайта: </p>
-<img src = "images/main.jpg">
+<img src = "lab2/images/main.jpg">
 
 <p>Cтраница "О нас": </p>
-<img src = "images/about.jpg">
+<img src = "lab2/images/about.jpg">
 
 <p>Страница с контактной информацией: </p>
-<img src = "images/contact.jpg">
+<img src = "lab2/images/contact.jpg">
 
 <p>Страница с оказываемыми услугами: </p>
-<img src = "images/service.jpg">
+<img src = "lab2/images/service.jpg">
 
 </body>
 </html>
