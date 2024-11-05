@@ -57,14 +57,14 @@ footer {
 
 .sectionimg {
     display: block;
-    margin: 0 auto; /* Центрирование изображения */
+    margin: 0 auto; 
     max-width: 100%; /* Масштабирование до 80% ширины родительского элемента */
     height: auto; /* Автоматическая высота для сохранения пропорций */
     padding-bottom: 20px;
 }
   
 .sectionh2 {
-    text-align: left; /* Центрирование заголовка */
+    text-align: left; 
     font-family: 'Times New Roman', serif; 
     font-size: 20px; 
     color: #f6f352; 
