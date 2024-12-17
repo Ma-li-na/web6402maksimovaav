@@ -26,12 +26,12 @@ section {
 }
 
 table {
-    width: 100%;
+    width: 100%; /* устанавливает ширину таблицы на 100% от родительского элемента и убирает промежутки между ячейками*/
     border-collapse: collapse;
 }
 
 th {
-    border: 1px solid #ddd;
+    border: 1px solid #ddd; /* Белая граница между разделами в таблице, здесь заголовок таблицы*/
     padding: 8px;
     text-align: center;
 }
@@ -56,6 +56,8 @@ footer {
 }
 
 .sectionimg {
+    /*Изображения отображаются как блочные элементы, 
+    центрируются с помощью margin*/
     display: block;
     margin: 0 auto; 
     max-width: 100%; /* Масштабирование до 80% ширины родительского элемента */
@@ -70,6 +72,10 @@ footer {
     color: #f6f352; 
 }
 
+#specialSection {
+    background-color: black;
+  }
+  
 .sectionp {
     text-align: center;
     font-family: Arial, sans-serif;
@@ -80,11 +86,11 @@ footer {
 .employee {
     display: flex; /* Размещаем изображение и информацию рядом */
     align-items: center; /* Выравниваем по вертикали */
-    margin-bottom: 20px; 
+    margin-bottom: 20px; /*устанавливает внешний отступ внизу элемента*/
 }
    
 .employee-img {
-    width: 150px; 
+    width: 150px; /*устанавливает ширину элемента*/
     height: auto; 
     margin-right: 20px; 
     border-radius: 50%; /* Делаем изображение круглым */
@@ -92,17 +98,19 @@ footer {
    
 .employee-name {
     font-weight: bold; /* Жирный шрифт для имени */
-    font-size: 1.2em; 
-    margin-bottom: 5px; 
+    font-size: 1.2em;
+    margin-bottom: 10px; 
 }
    
 .employee-role {
     font-style: italic; /* Курсив для должности */
+    font-size: 16px;
     margin-bottom: 10px; 
 }
    
 .employee-description {
     font-style: Arial; /* Обычный текст для информации о человеке */
+    font-size: 16px;
     margin-bottom: 10px;
 }
 

@@ -10,7 +10,7 @@ function isInteger(n) {
  * Функция, которая возвращает массив четных чисел от 2 до 20 включительно
  */
 function even() {
-    let arr = []
+    let arr = [];
     for (let i = 2; i < 21; i+=2) {
         arr.push(i);
     }
