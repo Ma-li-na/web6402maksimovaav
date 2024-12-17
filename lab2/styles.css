@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black; 
+    color: white; /* Белый текст по умолчанию */
+}
+
+header {
+    background-image: url('images/cat-background.PNG'); /* Путь к изображению с котикoм */
+    background-size: cover; /* Масштабирование изображения, чтобы оно заполнило весь фон */
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    padding: 40px 0; /* Увеличенный отступ для заголовка */
+    text-align: center; 
+    font-style: italic; /* Курсивный шрифт */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    border-top: 2px solid white; /* Белая полоса между разделами */
+    padding-top: 20px; 
+    padding-bottom: 20px;
+}
+
+table {
+    width: 100%; /* устанавливает ширину таблицы на 100% от родительского элемента и убирает промежутки между ячейками*/
+    border-collapse: collapse;
+}
+
+th {
+    border: 1px solid #ddd; /* Белая граница между разделами в таблице, здесь заголовок таблицы*/
+    padding: 8px;
+    text-align: center;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: right; /* Выравнивание по правому краю */
+}
+
+footer {
+    background-color: rgb(54, 53, 53); 
+    text-align: center; 
+    padding: 10px 0; 
+}
+
+.sectiona{
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #f8f8f6;
+}
+
+.sectionimg {
+    /*Изображения отображаются как блочные элементы, 
+    центрируются с помощью margin*/
+    display: block;
+    margin: 0 auto; 
+    max-width: 100%; /* Масштабирование до 80% ширины родительского элемента */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+    padding-bottom: 20px;
+}
+  
+.sectionh2 {
+    text-align: left; 
+    font-family: 'Times New Roman', serif; 
+    font-size: 20px; 
+    color: #f6f352; 
+}
+
+#specialSection {
+    background-color: black;
+  }
+  
+.sectionp {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #f8f8f6;
+}
+
+.employee {
+    display: flex; /* Размещаем изображение и информацию рядом */
+    align-items: center; /* Выравниваем по вертикали */
+    margin-bottom: 20px; /*устанавливает внешний отступ внизу элемента*/
+}
+   
+.employee-img {
+    width: 150px; /*устанавливает ширину элемента*/
+    height: auto; 
+    margin-right: 20px; 
+    border-radius: 50%; /* Делаем изображение круглым */
+}
+   
+.employee-name {
+    font-weight: bold; /* Жирный шрифт для имени */
+    font-size: 1.2em;
+    margin-bottom: 10px; 
+}
+   
+.employee-role {
+    font-style: italic; /* Курсив для должности */
+    font-size: 16px;
+    margin-bottom: 10px; 
+}
+   
+.employee-description {
+    font-style: Arial; /* Обычный текст для информации о человеке */
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.body-contact{
+    background-image: linear-gradient(#000000, #4b4b4a);
+}
