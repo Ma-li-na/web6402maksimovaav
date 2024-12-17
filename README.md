@@ -16,9 +16,6 @@
 
 <img src = "https://masterpiecer-images.s3.yandex.net/593a772a913111eeac812ab2a9c6ab46:upscaled">
 
-
-<img src = "https://masterpiecer-images.s3.yandex.net/593a772a913111eeac812ab2a9c6ab46:upscaled">
-
 <h1>Лабораторная работа №2</h1>
 <h2>Многостраничный web-сайт на тему "кошачий приют-гостиница" с использованием технологий HTML и CSS.</h2>
 <p>Главная страница сайта: </p>
