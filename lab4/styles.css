@@ -1,0 +1,272 @@
+/*_____________________________________________*/
+/*FLEXBOX - применяется на странице contact.html*/
+/*_____________________________________________*/
+
+.body-contact {
+    background-image: linear-gradient(#000000, #4b4b4a);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Занимаем всю высоту экрана */
+}
+
+.nav-flex {
+    display: flex;
+    justify-content: center;
+    gap: 1rem; 
+}
+
+#header-content {
+    display: flex;
+    flex-direction: column
+}
+
+.contact-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem; 
+}
+
+/*_____________________________________________*/
+
+/*GRID - применяется на странице main.html*/
+/*_____________________________________________*/
+
+.grid-container {
+    display: grid;
+    grid-template-rows: repeat(3);
+    grid-gap: 20px;
+    margin-bottom: 20px;
+}
+
+.grid-item {
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Адаптивная сетка внутри секции */
+    grid-auto-rows: minmax(80px, auto); /* Высота строк в секции */
+    align-items: center;
+    text-align: center;
+}
+
+/*_____________________________________________*/
+
+/*Анимация - на странице about.html*/
+/*_____________________________________________*/
+
+/* Анимация плавного появления */
+@keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+  /* Анимация подъема снизу */
+@keyframes slide-up {
+    from { transform: translateY(40px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+/*_____________________________________________*/
+/*Стили для формы на странице services.html*/
+/*_____________________________________________*/
+
+#myForm {
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #0c0c0c; 
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+   
+#myForm label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+  
+#myForm input[type="text"],
+#myForm input[type="tel"],
+#myForm select {
+    width: calc(100% - 22px); 
+    padding: 10px 11px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+  
+#myForm input[type="submit"] {
+    background-color: #007bff; 
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+}
+   
+/*_____________________________________________*/
+
+#clinics-table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+#clinics-table th, #clinics-table td {
+    border: 1px solid #f3eded;
+    padding: 8px;
+    text-align: left;
+}
+
+#show-clinics {
+    background-color: #326ec9; 
+    color: white; 
+    padding: 15px 32px; /* Отступы внутри кнопки */
+    text-align: center; 
+    font-size: 16px; 
+    margin: 4px 2px; 
+    cursor: pointer; /* Курсор в виде руки при наведении */
+    border: none; /* Убираем рамку */
+    border-radius: 4px; /* Скругляем углы */
+    transition: background-color 0.3s ease; /* Плавный переход цвета фона */
+}
+
+#show-clinics:hover {
+    background-color: #202094; /* Темнее при наведении */
+}
+
+
+.p-main {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: #f8f8f6;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black; 
+    color: white; 
+}
+
+header {
+    background-image: url('images/cat-background.PNG'); /* Путь к изображению с котикoм */
+    background-size: cover; /* Масштабирование изображения, чтобы оно заполнило весь фон */
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    padding: 40px 0; /* Увеличенный отступ для заголовка */
+    text-align: center; 
+    font-style: italic; /* Курсивный шрифт */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    border-top: 2px solid white; /* Белая полоса между разделами */
+    padding-top: 20px; 
+    padding-bottom: 20px;
+}
+
+table {
+    width: 100%; /* устанавливает ширину таблицы на 100% от родительского элемента и убирает промежутки между ячейками*/
+    border-collapse: collapse;
+}
+
+th {
+    border: 1px solid #ddd; /* Белая граница между разделами в таблице, здесь заголовок таблицы*/
+    padding: 8px;
+    text-align: center;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: right; /* Выравнивание по правому краю */
+}
+
+footer {
+    background-color: rgb(54, 53, 53); 
+    text-align: center; 
+    padding: 10px 0; 
+}
+
+.sectiona{
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #f8f8f6;
+}
+
+.sectionimg {
+    /*Изображения отображаются как блочные элементы, 
+    центрируются с помощью margin*/
+    display: block;
+    margin: 0 auto; 
+    max-width: 100%; /* Масштабирование до 80% ширины родительского элемента */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+    padding-bottom: 20px;
+}
+  
+.sectionh2 {
+    text-align: left; 
+    font-family: 'Times New Roman', serif; 
+    font-size: 20px; 
+    color: #f6f352; 
+}
+
+#specialSection {
+    animation: fade-in 1s ease-in-out;
+    animation: slide-up 1s ease-in-out; 
+    background-color: black;
+  }
+  
+.sectionp {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #f8f8f6;
+}
+
+.employee {
+    display: flex; /* Размещаем изображение и информацию рядом */
+    align-items: center; /* Выравниваем по вертикали */
+    margin-bottom: 20px; /*устанавливает внешний отступ внизу элемента*/
+}
+   
+.employee-img {
+    width: 150px; /*устанавливает ширину элемента*/
+    height: auto; 
+    margin-right: 20px; 
+    border-radius: 50%; /* Делаем изображение круглым */
+}
+   
+.employee-name {
+    font-weight: bold; /* Жирный шрифт для имени */
+    font-size: 1.2em;
+    margin-bottom: 10px; 
+}
+   
+.employee-role {
+    font-style: italic; /* Курсив для должности */
+    font-size: 16px;
+    margin-bottom: 10px; 
+}
+   
+.employee-description {
+    font-style: Arial; /* Обычный текст для информации о человеке */
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.body-contact{
+    background-image: linear-gradient(#000000, #4b4b4a);
+}
+
+.contact{
+    padding: 8px;
+    text-align: left; /* Выравнивание по правому краю */
+    border-radius: 5px;
+}
+

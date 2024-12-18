@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Услуги</title>
+</head>
+<body>
+    <header>
+        <h1>Наши услуги</h1>
+        <nav>
+            <a href="about.html" class="sectiona">О нас</a>
+            <a href="main.html" class="sectiona">Главная</a>
+            <a href="contact.html" class="sectiona">Контакты</a>   
+        </nav>
+
+    </header>
+    <main>
+        <h2 class="sectionh2">Предлагаем вам ознакомиться с услугами, которые предоставляет наш центр:</h2>
+        <table>
+            <tr>
+                <th>Услуга</th>
+                <th>Цена</th>
+            </tr>
+            <tr>
+                <td>Взять кота домой</td>
+                <td>500 руб.</td>
+            </tr>
+            <tr>
+                <td>Кошачья гостиница</td>
+                <td>300 руб./день</td>
+            </tr>
+            <tr>
+                <td>Ветеринарный осмотр</td>
+                <td>Бесплатно</td>
+            </tr>
+            <tr>
+                <td>Ветеринарное лечение</td>
+                <td>1000 руб.</td>
+            </tr>
+            <tr>
+                <td>Прогулка с котами</td>
+                <td>Бесплатно</td>
+            </tr>
+            <tr>
+                <td>Посетить наше кафе с котами</td>
+                <td>250 руб./час</td>
+            </tr>
+            
+        </table>
+        <h2 class="sectionh2">Если бы вы хотели приобрести какую-то услугу, оставьте заявку ниже и с вами свяжется наш администратор:</h2>
+        <form id="myForm" method="post" onsubmit="return validateForm()"> 
+            <h3 class="p-main">Заявка на услугу</h3>
+            <label>Выберите услугу:</label>
+            <select id="service" required> 
+                <option value="">Выберите услугу</option>  
+                <option value="Взять кота домой">Взять кота домой</option>
+                <option value="Кошачья гостиница">Кошачья гостиница</option>
+                <option value="Ветеринарный осмотр">Ветеринарный осмотр</option>
+                <option value="Ветеринарное лечение">Ветеринарное лечение</option>
+                <option value="Прогулка с котами">Прогулка с котами</option>
+                <option value="Посетить наше кафе с котами">Посетить наше кафе с котами</option>
+            </select><br><br>
+
+            <label for="name">Ваше имя:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="phone">Ваш телефон (11 цифр, можно с +):</label>
+            <input type="tel" id="phone" name="phone" required><br><br>
+
+            <input type="submit" value="Отправить">
+            <div id="error-messages" style="display: none;"></div>
+            <div id="message" style="display: none; margin-top: 10px;"></div>
+        </form>
+        <script src="script_service.js"></script>
+    </main>
+    <footer>
+        <p>© 2024 "Котики в мир"</p>
+    </footer>
+</body>
+</html>
