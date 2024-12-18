@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Контакты</title>
+</head>
+<body class="body-contact">
+    <header>
+        <div id="header-content">
+            <h1>Свяжитесь с нами, если вам стало интересно</h1>
+            <nav class ="nav-flex">
+                <a href="about.html" class="sectiona">О нас</a>
+                <a href="services.html" class="sectiona">Услуги</a>
+                <a href="main.html" class="sectiona">Главная</a>   
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h2 class="sectionh2">Наши контакты:</h2>
+        <section class="contact-list">
+            <div class="contact">
+                <p>Telegram: <a href="https://t.me/телеграм_канал" target="_blank">Котики_в_мир</a></p>
+            </div>
+            <div class="contact">
+                <p>ВКонтакте: <a href="https://vk.com/vk_профиль" target="_blank">Котики_в_мир</a></p>
+            </div>
+            <div class="contact">
+                <p>Телефон администратора: <a href="tel:+7XXXXXXXXXX" target="_blank">+7XXXXXXXXXX</a></p>
+            </div>
+            <div class="contact">
+                <p>Ссылка на настоящий питомник: <a href="https://dreamssky.ru/cattery" target="_blank">DreamsSky.com</a></p>
+            </div>
+        </section>
+        <button id="show-clinics">Показать адреса клиник</button>
+        <div id="clinics-table" style="display:none;">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Город</th>
+                        <th>Адрес</th>
+                    </tr>
+                </thead>
+                <tbody id="clinics-tbody"></tbody>
+            </table>
+        </div>
+        <script src="script_contact.js"></script>
+    </main>
+    <footer>
+        <p>© 2024 "Котики в мир"</p>
+    </footer>
+</body>
+</html>
+
+
